@@ -1,0 +1,262 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <script src="menuMobile.js" defer></script>
+    <!-- Bootstrap -->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css"
+    />
+    <!-- End Bootstrap -->
+    <title>LF TI</title>
+  </head>
+  <body>
+    <header class="headerPage">
+      <div class="interface">
+        <div class="flex">
+          <div class="headerLogo">
+            <img src="/images/Logo TI.png" alt="Logo" />
+          </div>
+          <!-- End headerLogo -->
+          <nav class="headerList">
+            <ul>
+              <li><a href="#start">Início</a></li>
+              <li><a href="#specialties">Especialidades</a></li>
+              <li><a href="#about">Sobre</a></li>
+              <li><a href="#portfolio">Projetos</a></li>
+              <li><a href="#form">Formulário</a></li>
+            </ul>
+          </nav>
+          <!-- End headerList -->
+          <div class="headerBtn">
+            <a href="#"><button>Contato</button></a>
+          </div>
+          <!-- End headerBtn -->
+
+          <!-- Mobile menu -->
+          <div class="btnOpenMenu" id="btnOpenMenu">
+            <i class="bi bi-list-task"></i>
+          </div>
+          <!-- End btnOpenMenu -->
+        </div>
+        <!-- End flex -->
+
+        <div class="mobileMenu" id="mobileMenu">
+          <div class="btnClose"><i class="bi bi-x-lg"></i></div>
+          <!-- End btnClose -->
+
+          <nav>
+            <ul>
+              <li><a href="#start">Início</a></li>
+              <li><a href="#specialties">Especialidades</a></li>
+              <li><a href="#about">Sobre</a></li>
+              <li><a href="#portfolio">Projetos</a></li>
+              <li><a href="#form">Formulário</a></li>
+              <li><a href="#contact">Contato</a></li>
+            </ul>
+          </nav>
+        </div>
+        <!-- End mobileMenu -->
+
+        <div class="filterOverPage" id="filterOverPage"></div>
+        <!-- End filterOverPage -->
+      </div>
+      <!-- End interface -->
+    </header>
+    <!-- End cabecalho -->
+
+    <main>
+      <section class="firstSection" id="start">
+        <div class="interface">
+          <div class="flex">
+            <div class="titleAndSubtitle">
+              <h1>DESENVOLVEDOR FULL STACK</h1>
+              <h2 class="caption">DESENVOLVEDOR FRONT END</h2>
+              <h2>DESENVOLVEDOR BACK END</h2>
+              <p><strong>Especialista</strong> em desenvolvimento web.</p>
+            </div>
+            <!-- End titleAndSubtitle -->
+            <div class="floatingLogo">
+              <img src="/images/Logo TI site.png" alt="Logo LF TI" />
+            </div>
+            <!-- End floatingLogo -->
+          </div>
+          <!-- End flex -->
+        </div>
+        <!-- End interface -->
+      </section>
+      <!-- End firstSection -->
+
+      <section class="specialties" id="specialties">
+        <div class="interface">
+          <div class="flex">
+            <div class="specialtiesBox">
+              <i class="bi bi-code-square"></i>
+              <h3>Website</h3>
+              <p>
+                O Site comunica, divulga, vende e entrega o seu produto ou
+                serviço. Por isso sua empresa, organização, empreendimento, seja
+                pessoa física ou jurídica, privada ou pública, merece nossa
+                parceria na contrução de um site.
+              </p>
+            </div>
+            <!-- End specialtiesBox -->
+            <div class="specialtiesBox">
+              <i class="bi bi-cart"></i>
+              <h3>Loja OnLine</h3>
+              <p>
+                Conheça nossos produtos e serviços. Construímos sites em
+                tecnologia HTML / CSS / JAVA SCRIPT. Com implantação de
+                Inteligência artificial na linguagem PYTHON.
+              </p>
+            </div>
+            <!-- End specialtiesBox -->
+            <div class="specialtiesBox">
+              <i class="bi bi-chat-left-text"></i>
+              <h3>Blog</h3>
+              <p>
+                Em nosso blog publicaremos conteúdos e artigos com fotos, sobre
+                as linguagens de programação CSS, HTML, JAVASCRIPT e PYTHON que
+                são as bases dos desenvolvimentos de site que aplicamos, para
+                melhores estratégias de marketing digital.
+              </p>
+            </div>
+            <!-- End specialtiesBox -->
+          </div>
+          <!-- End flex -->
+        </div>
+        <!-- End Inteface -->
+      </section>
+      <!-- End specialties -->
+
+      <section class="about" id="about">
+        <div class="interface">
+          <div class="flex">
+            <div class="photoAbout">
+              <img src="/images/Foto2.png" alt="Foto" />
+            </div>
+            <!-- End photoAbout -->
+            <div class="textAbout">
+              <h2>
+                Meu nome é <span>Luís França,</span> carrego com orgulho os
+                ensinamentos dos meus pais, comprometimento e dedicação.
+              </h2>
+              <p>
+                Tenho conhecimento em CSS, HTML e JAVASCRIPT para criação de
+                site.
+              </p>
+              <div class="socialMedia">
+                <a href="#"
+                  ><button><i class="bi bi-instagram"></i></button
+                ></a>
+                <a href="#"
+                  ><button><i class="bi bi-youtube"></i></button
+                ></a>
+                <a href="#"
+                  ><button><i class="bi bi-linkedin"></i></button
+                ></a>
+              </div>
+              <!-- End socialMedia -->
+            </div>
+            <!-- End textAbout -->
+          </div>
+          <!-- End flex -->
+        </div>
+        <!-- End interface -->
+      </section>
+      <!-- End about -->
+
+      <section class="portfolio" id="portfolio">
+        <div class="interface">
+          <h2 class="caption">Meu <span>portfólio.</span></h2>
+          <div class="flex">
+            <div
+              class="projectInPortfolio"
+              style="background-image: url(/images/portfolio.png)"
+            >
+              <div class="overlay">Projeto dissertativo "Portfólio"</div>
+              <!-- End overlay -->
+            </div>
+            <!-- End projectInPortfolio -->
+            <div
+              class="projectInPortfolio"
+              style="background-image: url(/images/layout-do-projeto.jpg)"
+            >
+              <div class="overlay">Projeto em desenvolvimento</div>
+              <!-- End overlay -->
+            </div>
+            <!-- End projectInPortfolio -->
+            <div
+              class="projectInPortfolio"
+              style="background-image: url(/images/imagem.jpg)"
+            >
+              <div class="overlay">Projeto em desenvolvimento</div>
+              <!-- End overlay -->
+            </div>
+            <!-- End projectInPortfolio -->
+          </div>
+          <!-- End flex -->
+        </div>
+        <!-- End interface -->
+      </section>
+      <!-- End portfolio -->
+
+      <section class="form" id="form">
+        <div class="interface">
+          <form action="">
+            <input type="text" class="text" placeholder="Nome" required />
+            <input type="text" class="text" placeholder="Email" required />
+            <input type="text" class="text" placeholder="Telefone" />
+            <textarea name="" id="" placeholder="Mensagem" required></textarea>
+            <div class="btnSubmit">
+              <input type="submit" value="Enviar" />
+            </div>
+            <!-- End btnSubmit -->
+          </form>
+          <!-- End form -->
+        </div>
+        <!-- End interface -->
+      </section>
+      <!-- End form -->
+    </main>
+
+    <footer id="contact">
+      <div class="interface">
+        <div class="footerLine">
+          <div class="flex">
+            <div class="footerLogo">
+              <img src="/images/Logo TI.png" alt="Logo LF TI" />
+            </div>
+            <!-- End footerLogo -->
+            <div class="socialMedia">
+              <a href="#"
+                ><button><i class="bi bi-instagram"></i></button
+              ></a>
+              <a href="#"
+                ><button><i class="bi bi-youtube"></i></button
+              ></a>
+              <a href="#"
+                ><button><i class="bi bi-linkedin"></i></button
+              ></a>
+            </div>
+            <!-- End btnSocial -->
+          </div>
+          <!-- End flex -->
+        </div>
+        <!-- End footerLine -->
+        <div class="footerLine lineBorder">
+          <!-- "mailto:lecfranca.ti@gmail.com" abre o email do usuário já com o meu email -->
+          <p>
+            <i class="bi bi-envelope-at"></i
+            ><a href="mailto:lecfranca.ti@gmail.com">lecfranca.ti@gmail.com</a>
+          </p>
+        </div>
+      </div>
+      <!-- End interface -->
+    </footer>
+    <!-- End footer -->
+  </body>
+</html>
