@@ -1,6 +1,6 @@
 ## 🔗 Acesse o Site  
 
-👉 [meu-portfolio](https://github.com/Lu-Fran/LF_Technology_Information/tree/main)  
+👉 [meu-portfolio](https://lf-technology-information.netlify.app/)  
 
 ## 🛠️ Tecnologias Utilizadas  
 
